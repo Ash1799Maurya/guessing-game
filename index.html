@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-container">
+        <div class="white">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-game-img.png" class="image1">
+        <p class="description">Find Out the right number between 1 to 100 </p>
+    </div>
+    <div class="blue-container">
+        <h1>Guess the number
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-number-img.png" class="image2">
+
+        </h1>
+
+        <input type="text" class="input-type" id="userInput">
+        <div>
+            <button class="btn" onclick="checkGuess()" >
+            check </button>
+        </div>
+        <p class="game-result" id="gameResult"></p>
+    </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
